@@ -7,7 +7,7 @@
   "description": "",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
+    "build": "parcel build --public-url /goit-js-hw-10/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
