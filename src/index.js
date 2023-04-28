@@ -89,3 +89,5 @@ function clearMarkup() {
   listContainer.innerHTML = '';
   cardContainer.innerHTML = '';
 }
+
+export { clearMarkup };
