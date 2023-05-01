@@ -27,7 +27,7 @@ function onInput(e) {
         );
         return;
       }
-      if (country.length >= 2 && country.length < 10) {
+      if (country.length >= 2 && country.length <= 10) {
         cardContainer.innerHTML = '';
         const markupCountries = renderCountriesListMarkup(country);
         listContainer.innerHTML = markupCountries;
